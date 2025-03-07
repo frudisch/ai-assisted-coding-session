@@ -30,6 +30,9 @@ dependencies {
     testImplementation("io.rest-assured:rest-assured:5.4.0")
     testImplementation("io.rest-assured:spring-web-test-client:5.4.0")
     testImplementation("io.rest-assured:kotlin-extensions:5.4.0")
+    testImplementation("org.testcontainers:testcontainers:1.19.0")
+    testImplementation("org.testcontainers:junit-jupiter:1.19.0")
+    testImplementation("org.testcontainers:mongodb:1.19.0")
 }
 
 kotlin {
