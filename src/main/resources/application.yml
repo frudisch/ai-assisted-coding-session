@@ -1,0 +1,13 @@
+server:
+  port: 3000
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/userdb
+      database: userdb
+
+logging:
+  level:
+    root: INFO
+    org.springframework: DEBUG

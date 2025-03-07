@@ -1,0 +1,27 @@
+id: User
+type: object
+properties:
+  id:
+    type: string
+    format: uuid
+    example: "123e4567-e89b-12d3-a456-426614174000"
+  firstName:
+    type: string
+    example: "John"
+  lastName:
+    type: string
+    example: "Doe"
+  birthDate:
+    type: string
+    format: date
+    example: "1990-01-01"
+  email:
+    type: string
+    format: email
+    example: "john.doe@example.com"
+required:
+  - id
+  - firstName
+  - lastName
+  - birthDate
+  - email

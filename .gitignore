@@ -1,0 +1,21 @@
+# Java
+*.class
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Others
+*.jar
+*.war
+*.ear
